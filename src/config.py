@@ -1,0 +1,1 @@
+MODEL_PATH = "artifacts/model/plant_disease_model.pth"

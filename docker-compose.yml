@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  crop-disease-app:
+    build: .
+    ports:
+      - "8501:8501"
+      - "5000:5000"

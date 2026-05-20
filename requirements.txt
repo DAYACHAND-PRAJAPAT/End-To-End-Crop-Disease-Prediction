@@ -1,0 +1,15 @@
+torch
+torchvision
+flask
+streamlit
+pillow
+requests
+numpy
+tqdm
+dvc
+boto3
+python-dotenv
+gunicorn
+PyYAML
+mlflow
+pandas

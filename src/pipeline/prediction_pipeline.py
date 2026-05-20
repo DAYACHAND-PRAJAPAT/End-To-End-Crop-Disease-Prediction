@@ -1,0 +1,1 @@
+from src.components.prediction import PredictionPipeline

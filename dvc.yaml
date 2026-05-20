@@ -1,0 +1,10 @@
+stages:
+  train:
+    cmd: python train.py
+    deps:
+      - train.py
+      - model.py
+      - utils.py
+      - data/
+    outs:
+      - artifacts/model/plant_disease_model.pth
