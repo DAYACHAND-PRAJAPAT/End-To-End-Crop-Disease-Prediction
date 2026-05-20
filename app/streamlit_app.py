@@ -10,7 +10,7 @@ st.set_page_config(
 
 st.title("🌿 Plant Disease Prediction")
 
-FLASK_URL = os.environ.get("FLASK_URL", "http://localhost:5000")
+FLASK_URL = os.environ.get("FLASK_URL", "http://flask-api:5000")
 PREDICT_ENDPOINT = FLASK_URL.rstrip("/") + "/predict"
 
 uploaded_file = st.file_uploader(

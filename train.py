@@ -16,7 +16,7 @@ from utils import (
 
 def train(
     data_dir="data",
-    epochs=5,
+    epochs=1,
     batch_size=16,
     lr=0.001,
     save_path="artifacts/model/plant_disease_model.pth"
